@@ -103,7 +103,7 @@ header nav .nav-right li a {
 
 .list-products article button {
   padding: 1rem 2rem;
-  background-color: #00e500b7;
+  background-color: #36f136b7;
   border: 1px solid #444;
   border-radius: 0.5rem;
   font-size: 1em;
@@ -114,7 +114,7 @@ header nav .nav-right li a {
 
 .list-products article button:hover {
   cursor: pointer;
-  background-color: #10e910ca;
+  background-color: #1ff11fca;
 }
 
 .list-products article img {
@@ -151,6 +151,38 @@ footer a:hover {
 }
 
 @media(max-width: 700px) {
+
+  body {
+    background: #f00;
+  }
+
+  /* NAV */
+  header nav {
+    display: block;
+    padding: .6rem;
+
+  }
+
+  header nav .nav-left li {
+    margin-bottom: 3rem;
+  }
+
+  header nav .nav-right li {
+    margin: 2rem;
+  }
+
+  footer {
+   display: block;
+  }
+
+  footer p {
+    margin-bottom: 3rem;
+  }
+
+  footer a {
+    margin: 2rem 0;
+  }
+
   /* For the list of products more small */
   .list-products {
     grid-template-columns: repeat(2, 1fr);
@@ -160,5 +192,29 @@ footer a:hover {
 @media(max-width: 500px) {
   .list-products {
     grid-template-columns: 1fr;
+  }
+
+  /* Navigation */
+  header nav {
+    display: block;
+    padding: 1rem;
+  }
+
+  header nav .nav-right li {
+    margin: 2rem 2rem;
+  }
+
+  /* Foter small */
+  footer {
+    display: block;
+    padding: 2rem;
+  }
+
+  footer p {
+    margin: 1rem 0 3rem 0;
+  }
+
+  footer a {
+    margin: 5rem 0;
   }
 }

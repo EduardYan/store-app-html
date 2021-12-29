@@ -49,15 +49,22 @@ header nav .nav-left li a:hover, header nav .nav-right li a:hover {
   color: #dddddd;
 }
 
+header nav .nav-left li {
+  margin: 0 2rem;
+}
+
 header nav .nav-left li a {
   font-size: 2rem;
   color: #ffffff;
-  padding: 2rem;
 }
 
+header nav .nav-right {
+  display: flex;
+  margin-left: 60%;
+}
 header nav .nav-right li {
-  padding: 0;
-  margin-left: 950px;
+  padding: 1rem;
+  margin: 0 1rem;
 }
 
 header nav .nav-right li a {
@@ -121,6 +128,7 @@ header nav .nav-right li a {
   width: 100%;
 }
 
+/* Footer */
 footer {
   padding: 0.5rem;
   color: #ffffff;
@@ -150,6 +158,7 @@ footer a:hover {
   color: #ddd;
 }
 
+/* 700 Pixels */
 @media(max-width: 700px) {
 
   body {
@@ -189,6 +198,7 @@ footer a:hover {
   }
 }
 
+/* 500 Pixels */
 @media(max-width: 500px) {
   .list-products {
     grid-template-columns: 1fr;

@@ -6,4 +6,4 @@ __This is a store app maked with html, plain css and a little javascript.__
 ![screenshot](./doc/screenshot.png)
 
 # Resources.
-* Images from [pexels.com](www.pexels.com)
+* Images from [pexels.com](https://www.pexels.com)
